@@ -1,0 +1,6 @@
+{
+"valid_labels":["enhancement","fix","bug"],
+"target_url":"http://5a1c8cf8.ngrok.io/postreceive",
+"debug":true,
+"checker_url":"http://5a1c8cf8.ngrok.io/postreceive"
+}

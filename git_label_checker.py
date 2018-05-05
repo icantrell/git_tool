@@ -3,7 +3,7 @@ from github_webhook import Webhook
 import requests
 import json
 import sys
-import pickle
+#import pickle
 from getpass import getpass
 
 #load conifurations

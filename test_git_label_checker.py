@@ -2,6 +2,9 @@ import json
 import git_label_checker as test
 import pickle
 
+
+#test use pickled github json string from a webhook for pull request
+#on a 'labeled' action.
 test_json = pickle.load(open('json_test.txt','rb'))
 
 def test_pr_opened_status():

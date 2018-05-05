@@ -13,6 +13,8 @@ debug: Says where or not to show debug output. boolean value.
 user(optional): username with access to repo. string.
 <br/>
 passwd(optional): password for user with access to repo. string.
+<br/>
+secret(optional): file name for secret. string.
 
 # setup
 First you will need an application to forward ports. I used Ngrok for temporary testing.
@@ -46,5 +48,7 @@ For testing I captured a github pull request with action 'labeled'. You will nee
 The pull request is pickled and stored in the json_test.py file.
 
 There's some commented out code in git_label_checker.py that makes this easier.
+
+For testing with pytest user and passwd config settings are not optional.
 
 

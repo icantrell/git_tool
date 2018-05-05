@@ -1,4 +1,3 @@
-
 # git_tool
 Github tool for requiring labels in pull requests before merge.
 
@@ -34,6 +33,8 @@ cmd$ flask run -p <the port you are forwarding from>
 Once the server starts running you will need to provide a username and password to a repo account that has access to repo where the webhooks are setup if they were not set in the config.
  
 # setting up webhooks(don't skip)
+link to setting up github webhhooks.
+https://developer.github.com/webhooks/
 
 when setting up webhooks the URL to send to will be <the web url where app is located>/postreceive
  <br/>
